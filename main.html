@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Demo</title>
+
+</head>
+
+<body class="bg-blue-50">
+    <header class="bg-blue-50">
+        <nav class="text-right bg-white text-green-400">
+            <img class="float-left" src="./logo.jpg" alt="">
+            <h2 class="text-3xl">Home<i class="fa-solid fa-house"></i></h2>
+        </nav>
+        <div class="border-b-2 border-gray-400">
+            <h1 class="text-5xl me-36 p-0 text-center">Contact Us</h1>
+            <h6 class="mx-48 text-center">Let Us know if you have any Questions.</h6>
+        </div>
+    </header>
+
+    <section class="w-screen bg-blue-50 flex flex-row flex-wrap justify-between">
+        <div class="w-6/12 bg-white p-10 m-10 rounded shadow-lg hover:shadow-2xl">
+
+            <div class="border-b-4 border-green-400 inline-block">
+                <h1>LEAVE</h1>
+            </div>
+            <div class="inline-block">
+                <h1>US A MESSAGE</h1>
+            </div>
+            <br><br>
+            <div class="mb-5">
+                <label class="block">
+                    <span
+                        class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                        First Name :
+                    </span>
+                    <input type="text" name="fristname"
+                        class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                        placeholder="First Name" />
+                </label>
+            </div>
+            <div class="mb-3">
+                <label class="block">
+                    <span
+                        class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                        Last Name :
+                    </span>
+                    <input type="text" name="lastname"
+                        class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                        placeholder="last Name" />
+                </label>
+            </div>
+
+            <div class="mb-3">
+                <label class="block">
+                    <span
+                        class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                        Email
+                    </span>
+                    <input type="email" name="email"
+                        class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                        placeholder="you@example.com" />
+                </label>
+            </div>
+            <div class="mb-3">
+                <label class="block">
+                    <span
+                        class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                        Mobile Number :
+                    </span>
+                    <input type="number" name="mnumber"
+                        class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                        placeholder="example : 9016488128" />
+                </label>
+            </div>
+            <div class="mb-3">
+                <label class="block">
+                    <span
+                        class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                        Company Name :
+                    </span>
+                    <input type="text" name="companyname"
+                        class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                        placeholder="Company Name" />
+                </label>
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Message :</label>
+                <textarea name="messageBox"
+                    class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                    id="messageBox" cols="30" rows="10"></textarea>
+            </div>
+            <div class="mb-3">
+                <input type="checkbox" id="formGroupExampleInput2"> I'm not a robot <br>
+            </div>
+            <div class="mb-3">
+                <button type="button" class="bg-green-400 rounded-lg px-5 py-2">Submit</button>
+            </div>
+        </div>
+        <div class="w-5/12 py-20 pe-20 text-center content-center flex flex-col">
+            <div class="border-b-2 border-gray-300 mb-10">
+                <img class="mx-56 w-12 h-8" src="./india.webp" alt="">
+                <h3><b>India</b></h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ab assumenda voluptatibus quae
+                    cupiditate quas fugiat, tenetur fuga deleniti possimus!</p>
+                <h5><i class="fa-solid fa-phone" style="color: rgb(81, 218, 81);"></i> +91 9016488128</h5>
+            </div>
+            <div class="border-b-2 border-gray-300 mb-10">
+                <img class="mx-56 w-12 h-8" src="./usa.jpeg" alt="">
+                <h3><b>united states of america</b></h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, ratione reiciendis perferendis saepe
+                    repellat hic nemo facere ipsum accusamus eius?</p>
+                <h5><i class="fa-solid fa-phone" style="color: rgb(81, 218, 81);"></i> +91 9016488128</h5>
+            </div>
+            <div>
+                <h6><i class="fa-solid fa-envelope" style="color: rgb(81, 218, 81);"></i> <b>Sales Enquiries : </b>
+                    sales@scriptlldna.com</h6>
+                <h6><i class="fa-solid fa-envelope" style="color: rgb(81, 218, 81);"></i> <b>General Enquiries : </b>
+                    sales@scriptlldna.com</h6>
+                <h6><i class="fa-solid fa-envelope" style="color: rgb(81, 218, 81);"></i> <b>Product Enquiries : </b>
+                    sales@scriptlldna.com</h6>
+            </div>
+        </div>
+        <div class="absolute top-[108%] left-[50%]">
+            <img src="./team.png" id="team" alt="">
+        </div>
+    </section>
+
+    <footer class="text-xs" style="background-color: black;">
+        <div class="container-fuild text-center underline underline-offset-3  p-5">
+            <div class="flex flex-row">
+                <div class="col-md- mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-green-400"><b>ABOUT</b></h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a href="#!" class="text-white">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">About US</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Carees</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-1 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-successm text-green-400"><b>HELP</b></h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">Payment</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Refunds</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-1 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-success text-green-400"><b>POLICY</b></h5>
+                    <ul class="list-unstyled">
+                        <li> <a href="#!" class="text-white">Security</a>
+                        </li>
+                        <li><a href="#!" class="text-white">Terms Of uses</a>
+                        </li>
+                        <li><a href="#!" class="text-white">Sitemap</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-success text-green-400"><b>SOCIAL</b></h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">YouTube</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white"></a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2 mr-auto p-2">
+                    <h5 class="uppercase mt-3 mb-4 text-green-400"><b>Registered Office Address:</b></h5>
+
+                    <p class="text-white w-56">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, velit eum nisi numquam
+                        mollitia ratione praesentium doloribus unde et, eos in atque fugit est. Molestias!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
